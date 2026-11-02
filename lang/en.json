@@ -1,0 +1,108 @@
+{
+  "COMMLINK": {
+    "Title": "Commlink",
+    "Open": "Open Commlink",
+    "Close": "Close",
+    "ToggleOn": "Mark as Commlink",
+    "ToggleOff": "Remove Commlink flag",
+    "NoPermission": "You cannot open this commlink.",
+    "Idle": "Ready",
+    "Design": {
+      "Title": "Choose casing",
+      "Hint": "Which commlink design should this device use?",
+      "Apply": "Apply",
+      "Renraku": "Renraku",
+      "Sony": "Sony",
+      "Shiawase": "Shiawase",
+      "Aztechnology": "Aztechnology"
+    },
+    "Contacts": {
+      "Title": "Contacts",
+      "Empty": "Drop an actor from the sidebar here.",
+      "EmptyView": "No contacts.",
+      "Add": "Add contact",
+      "Remove": "Remove",
+      "Exists": "This contact is already saved.",
+      "NotActor": "Only characters and other actors can be added.",
+      "NoneVisible": "No visible actors.",
+      "PickHint": "Or drop an actor from the sidebar onto the screen."
+    },
+    "Call": {
+      "Back": "Back",
+      "OpenActor": "Open character sheet",
+      "NoActor": "This contact no longer has a valid actor.",
+      "Unknown": "Unknown",
+      "NoBlurb": "No public description.",
+      "Services": "Connection Services",
+      "NoService": "This action is not available."
+    },
+    "Connection": {
+      "Professionalism": "Professionalism",
+      "Loyalty": "Loyalty",
+      "Type": "Connection Type",
+      "TypeHint": "Fixer, Johnson…"
+    },
+    "Service": {
+      "Day": "day",
+      "RequestHint": "Request {name} ({cost}). Favor: {favor}.",
+      "Fee": "Pay fee",
+      "Favor": "Call in a favor",
+      "FavorCost": "Favor {favor}",
+      "FavorMod": "Favor: {risk} ({mod})",
+      "FavorHint": "Loyalty {die} + Wild Die d6. Suggested: {favor}. The GM picks the risk from the consequences for the connection.",
+      "Suggested": "suggested",
+      "To": "to",
+      "NoCost": "The roll failed. There is no cost.",
+      "Success": "Success",
+      "Failure": "Failure",
+      "RaiseCount": "{raises} raise(s)",
+      "FeeDue": "Cost: {cost}",
+      "FeeSuccess": "The roll succeeded. The cost is {cost}.",
+      "Deduct": "Deduct {cost}",
+      "Paid": "Paid",
+      "Deducted": "Deducted {cost} from {name}.",
+      "NoPayer": "This commlink is not on a character.",
+      "NoCurrency": "This character has no currency value.",
+      "Modifier": "Modifier",
+      "Roll": "Roll",
+      "WildDie": "d6",
+      "WildLabel": "Wild Die",
+      "RollResult": "Roll Result",
+      "Critfail": "Critical failure",
+      "ModHint": "{trait} {die} + Wild Die d6. Set a situational modifier, then roll.",
+      "FavorYes": "The favor is granted.",
+      "FavorNo": "The favor is refused. The GM may instead demand extra compensation.",
+      "Risk": {
+        "Label": "Risk",
+        "None": "No risk",
+        "Low": "Low risk",
+        "Raised": "Increased risk",
+        "High": "High risk",
+        "Extreme": "Extreme risk"
+      },
+      "Cost": {
+        "general": "Information, general",
+        "special": "Information, specialized",
+        "sensitive": "Information, sensitive",
+        "legal_day": "Legal activity",
+        "illegal_clean": "Illegal, untraceable activity",
+        "illegal_trace": "Illegal, traceable activity",
+        "arrest": "Connection is likely to be arrested"
+      },
+      "Example": {
+        "general": "Anyone might know this. Find a vendor, identify tech, etc.",
+        "special": "Specialist knowledge. Cyberware, decking, vehicles, magic",
+        "sensitive": "Could cause trouble. Sensitive intel on people and hidden sites, forbidden research",
+        "legal_day": "Shadowing, implant cyberware, first aid, repair a vehicle, provide a safehouse, etc.",
+        "illegal_clean": "Decrypt data, bug a vehicle",
+        "illegal_trace": "Decking, ritual magic",
+        "arrest": "Distraction, active escape help, etc."
+      },
+      "Detail": {
+        "Success": "General information: looks, street names, possible locations, or contacts who know more.",
+        "Raise1": "Associates or partners, real name, and places the person frequents.",
+        "Raise2": "A full dossier, safehouses, connections, and the current whereabouts."
+      }
+    }
+  }
+}

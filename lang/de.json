@@ -1,0 +1,108 @@
+{
+  "COMMLINK": {
+    "Title": "Commlink",
+    "Open": "Commlink öffnen",
+    "Close": "Schließen",
+    "ToggleOn": "Als Commlink markieren",
+    "ToggleOff": "Commlink-Markierung entfernen",
+    "NoPermission": "Du kannst dieses Commlink nicht öffnen.",
+    "Idle": "Bereit",
+    "Design": {
+      "Title": "Gehäuse wählen",
+      "Hint": "Welches Commlink-Design soll dieses Gerät nutzen?",
+      "Apply": "Übernehmen",
+      "Renraku": "Renraku",
+      "Sony": "Sony",
+      "Shiawase": "Shiawase",
+      "Aztechnology": "Aztechnology"
+    },
+    "Contacts": {
+      "Title": "Kontakte",
+      "Empty": "Actor aus der Seitenleiste hierher ziehen.",
+      "EmptyView": "Keine Kontakte.",
+      "Add": "Kontakt hinzufügen",
+      "Remove": "Entfernen",
+      "Exists": "Dieser Kontakt ist schon gespeichert.",
+      "NotActor": "Nur Charaktere und andere Actor können aufs Commlink.",
+      "NoneVisible": "Keine sichtbaren Actor.",
+      "PickHint": "Oder einen Actor aus der Seitenleiste auf den Bildschirm ziehen."
+    },
+    "Call": {
+      "Back": "Zurück",
+      "OpenActor": "Charakterbogen öffnen",
+      "NoActor": "Dieser Kontakt hat keinen gültigen Actor mehr.",
+      "Unknown": "Unbekannt",
+      "NoBlurb": "Keine öffentliche Beschreibung.",
+      "Services": "Connectiondienste",
+      "NoService": "Diese Aktion ist nicht verfügbar."
+    },
+    "Connection": {
+      "Professionalism": "Professionalität",
+      "Loyalty": "Loyalität",
+      "Type": "Connectiontyp",
+      "TypeHint": "Schieber, Johnson…"
+    },
+    "Service": {
+      "Day": "Tag",
+      "RequestHint": "{name} anfordern ({cost}). Gefallen: {favor}.",
+      "Fee": "Gebühr zahlen",
+      "Favor": "Gefallen einfordern",
+      "FavorCost": "Gefallen {favor}",
+      "FavorMod": "Gefallen: {risk} ({mod})",
+      "FavorHint": "Loyalität {die} + Wild Die d6. Vorgeschlagen: {favor}. Der Spielleiter wählt das Risiko nach den Konsequenzen für die Connection.",
+      "Suggested": "Vorschlag",
+      "To": "bis",
+      "NoCost": "Die Probe ist misslungen. Es entstehen keine Kosten.",
+      "Success": "Erfolg",
+      "Failure": "Fehlschlag",
+      "RaiseCount": "{raises} Steigerung(en)",
+      "FeeDue": "Kosten: {cost}",
+      "FeeSuccess": "Die Probe ist gelungen. Es entstehen Kosten in Höhe von {cost}",
+      "Deduct": "{cost} Kosten abziehen",
+      "Paid": "Bezahlt",
+      "Deducted": "{cost} von {name} abgezogen.",
+      "NoPayer": "Dieses Commlink hängt an keinem Charakter.",
+      "NoCurrency": "Dieser Charakter hat keinen Währungswert.",
+      "Modifier": "Modifikator",
+      "Roll": "Würfeln",
+      "WildDie": "d6",
+      "WildLabel": "Wildcard-Würfel",
+      "RollResult": "Würfelergebnis",
+      "Critfail": "Kritischer Fehlschlag",
+      "ModHint": "{trait} {die} + Wild Die d6. Situativen Modifikator setzen, dann würfeln.",
+      "FavorYes": "Der Gefallen wird gewährt.",
+      "FavorNo": "Der Gefallen wird abgelehnt. Der Spielleiter kann stattdessen eine zusätzliche Gegenleistung verlangen.",
+      "Risk": {
+        "Label": "Risiko",
+        "None": "Kein Risiko",
+        "Low": "Geringes Risiko",
+        "Raised": "Erhöhtes Risiko",
+        "High": "Hohes Risiko",
+        "Extreme": "Extremes Risiko"
+      },
+      "Cost": {
+        "general": "Informationen, allgemeiner Art",
+        "special": "Informationen, spezieller Art",
+        "sensitive": "Informationen, sensibler Art",
+        "legal_day": "Legale Aktivität",
+        "illegal_clean": "Illegal, nicht zurückverfolgbare Aktivität",
+        "illegal_trace": "Illegal, zurückverfolgbare Aktivität",
+        "arrest": "Connection wird mit großer Wahrscheinlichkeit verhaftet"
+      },
+      "Example": {
+        "general": "Könnte jeder wissen. Händler finden, Tech identifizieren, etc.",
+        "special": "Fachwissen. Cyberware, Decking, Fahrzeuge, Magie",
+        "sensitive": "Könnten Ärger verursachen. Sensible Informationen zu Personen und geheimen Standorten, verbotene Forschungsprojekte",
+        "legal_day": "Beschatten, Cyberware implantieren, Erste Hilfe, Fahrzeug reparieren, Safehouse bereitstellen, etc.",
+        "illegal_clean": "Datenspeicher entschlüsseln, Fahrzeug verwanzen",
+        "illegal_trace": "Decking, Ritualzauber",
+        "arrest": "Ablenkungsmanöver, aktive Fluchthilfe, etc."
+      },
+      "Detail": {
+        "Success": "Allgemeine Informationen: Aussehen, Straßennamen, mögliche Standorte oder Kontakte, die mehr wissen.",
+        "Raise1": "Mitarbeiter oder Partner, echter Name und Orte, an denen die Person verkehrt.",
+        "Raise2": "Ausführliches Dossier, Safehouses, Connections und der aktuelle Aufenthaltsort."
+      }
+    }
+  }
+}
